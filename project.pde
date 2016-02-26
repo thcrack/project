@@ -9,6 +9,8 @@ void setup(){
 }
 
 void draw (){
+  blueCar.moveForward() ;
+  redCar.moveForward() ;
   blueCar.display() ;
   redCar.display() ;
 }
